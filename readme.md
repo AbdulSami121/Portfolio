@@ -1,4 +1,4 @@
-My personal portfolio website https://www.muhammadumerfarooq.me/
+My personal portfolio website /
 
 ## Installations
 1. Close this repo
@@ -17,10 +17,3 @@ MIT
 
 ## Contributions
 Feel free to open `PR`
-
-## Support
-Donate coffee?
-here is the bitcoin address
-	```37x6PA4qtPu2fQnYdW5U7jztYhbchASpBV```
-
-Thanks you so much.

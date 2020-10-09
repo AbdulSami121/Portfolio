@@ -1,0 +1,23 @@
+[debug] [2020-10-09T14:01:55.480Z] ----------------------------------------------------------------------
+[debug] [2020-10-09T14:01:55.484Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2020-10-09T14:01:55.484Z] CLI Version:   8.10.0
+[debug] [2020-10-09T14:01:55.485Z] Platform:      linux
+[debug] [2020-10-09T14:01:55.485Z] Node Version:  v10.19.0
+[debug] [2020-10-09T14:01:55.485Z] Time:          Fri Oct 09 2020 19:01:55 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-10-09T14:01:55.485Z] ----------------------------------------------------------------------
+[debug] [2020-10-09T14:01:55.485Z] 
+[debug] [2020-10-09T14:01:55.497Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-09T14:01:55.498Z] > authorizing via signed-in user
+[debug] [2020-10-09T14:01:55.498Z] [iam] checking project glossy-beach-266216 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-09T14:01:55.503Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/glossy-beach-266216:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-10-09T14:01:58.265Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 09 Oct 2020 14:01:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1236","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-09T14:01:58.269Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/glossy-beach-266216  
+ 
+[debug] [2020-10-09T14:02:00.631Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 09 Oct 2020 14:02:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'glossy-beach-266216'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-10-09T14:02:00.643Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/glossy-beach-266216/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
