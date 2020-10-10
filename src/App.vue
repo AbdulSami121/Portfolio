@@ -98,7 +98,7 @@
       <md-button class="scroll" v-if="top" @click="scrollTop"><md-icon>keyboard_arrow_up</md-icon></md-button>
     </div>
     <footer>
-      <p>Made with <md-icon style="color: red">favorite</md-icon> by <a href="https://github.com/lablnet">Sami</a>.  <a href="https://github.com/lablnet">v1.1.0</a></p>
+      <p>Made with <md-icon style="color: red">favorite</md-icon> by <a href="#">Sami</a>.  <a href="#">v1.1.0</a></p>
     </footer>
   </div>
 </template>

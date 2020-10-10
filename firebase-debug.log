@@ -1,37 +1,33 @@
-[debug] [2020-10-10T04:59:06.412Z] ----------------------------------------------------------------------
-[debug] [2020-10-10T04:59:06.415Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --only hosting
-[debug] [2020-10-10T04:59:06.415Z] CLI Version:   8.10.0
-[debug] [2020-10-10T04:59:06.415Z] Platform:      linux
-[debug] [2020-10-10T04:59:06.415Z] Node Version:  v10.19.0
-[debug] [2020-10-10T04:59:06.420Z] Time:          Sat Oct 10 2020 09:59:06 GMT+0500 (Pakistan Standard Time)
-[debug] [2020-10-10T04:59:06.420Z] ----------------------------------------------------------------------
-[debug] [2020-10-10T04:59:06.420Z] 
-[debug] [2020-10-10T04:59:06.435Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-10-10T04:59:06.436Z] > authorizing via signed-in user
-[debug] [2020-10-10T04:59:06.436Z] [iam] checking project abdulsami122 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2020-10-10T04:59:06.438Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2020-10-10T04:59:06.439Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2020-10-10T04:59:17.034Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sat, 10 Oct 2020 04:59:16 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-10-10T04:59:17.044Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/abdulsami122:testIamPermissions  
+[debug] [2020-10-10T05:03:47.907Z] ----------------------------------------------------------------------
+[debug] [2020-10-10T05:03:47.909Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2020-10-10T05:03:47.910Z] CLI Version:   8.10.0
+[debug] [2020-10-10T05:03:47.910Z] Platform:      linux
+[debug] [2020-10-10T05:03:47.910Z] Node Version:  v10.19.0
+[debug] [2020-10-10T05:03:47.914Z] Time:          Sat Oct 10 2020 10:03:47 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-10-10T05:03:47.914Z] ----------------------------------------------------------------------
+[debug] [2020-10-10T05:03:47.914Z] 
+[debug] [2020-10-10T05:03:47.925Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-10T05:03:47.925Z] > authorizing via signed-in user
+[debug] [2020-10-10T05:03:47.926Z] [iam] checking project abdulsami122 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-10T05:03:47.930Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/abdulsami122:testIamPermissions  
  {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2020-10-10T04:59:19.654Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Oct 2020 04:59:19 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1194","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-10-10T04:59:19.658Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/abdulsami122  
+[debug] [2020-10-10T05:03:50.369Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Oct 2020 05:03:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1228","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-10T05:03:50.371Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/abdulsami122  
  
-[debug] [2020-10-10T04:59:21.240Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Oct 2020 04:59:21 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-10T05:03:51.589Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Oct 2020 05:03:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
 [info] 
 [info] === Deploying to 'abdulsami122'...
 [info] 
 [info] i  deploying hosting 
-[debug] [2020-10-10T04:59:21.253Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/abdulsami122/versions  
+[debug] [2020-10-10T05:03:51.598Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/abdulsami122/versions  
  {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
-[debug] [2020-10-10T04:59:24.631Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Oct 2020 04:59:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-10T05:03:54.843Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Oct 2020 05:03:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
 [info] i  hosting[abdulsami122]: beginning deploy... 
 [info] i  hosting[abdulsami122]: found 20 files in dist 
-[debug] [2020-10-10T04:59:25.041Z] [hosting] hash cache [ZGlzdA] stored for 20 files
-[debug] [2020-10-10T04:59:25.041Z] [hosting][hash queue][FINAL] {"max":383,"min":24,"avg":53.55,"active":0,"complete":20,"success":20,"errored":0,"retried":0,"total":20,"elapsed":393}
-[debug] [2020-10-10T04:59:25.042Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/abdulsami122/versions/061ab908cf1b06d5:populateFiles  
+[debug] [2020-10-10T05:03:55.280Z] [hosting] hash cache [ZGlzdA] stored for 20 files
+[debug] [2020-10-10T05:03:55.281Z] [hosting][hash queue][FINAL] {"max":409,"min":20,"avg":47.5,"active":0,"complete":20,"success":20,"errored":0,"retried":0,"total":20,"elapsed":420}
+[debug] [2020-10-10T05:03:55.282Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/abdulsami122/versions/97f0b92bd2f0be01:populateFiles  
  <request body omitted>
-[debug] [2020-10-10T04:59:27.032Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Oct 2020 04:59:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-10-10T04:59:27.043Z] [hosting][populate queue][FINAL] {"max":1997,"min":1997,"avg":1997,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2004}
-[debug] [2020-10-10T04:59:27.044Z] [hosting] uploads queued: 4
+[debug] [2020-10-10T05:03:57.475Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 10 Oct 2020 05:03:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-10T05:03:57.482Z] [hosting][populate queue][FINAL] {"max":2199,"min":2199,"avg":2199,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2204}
+[debug] [2020-10-10T05:03:57.482Z] [hosting] uploads queued: 3
