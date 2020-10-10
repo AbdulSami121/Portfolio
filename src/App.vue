@@ -68,7 +68,7 @@
             </md-list-item>
             <md-list-item>
               <md-icon>insert_photo</md-icon>
-              <span class="md-list-item-text"><router-link :to="{ name: 'gallery' }">Gallary</router-link></span>
+              <span class="md-list-item-text"><router-link :to="{ name: 'gallery' }">Gallery</router-link></span>
             </md-list-item>
           </md-list>
         </md-list-item>

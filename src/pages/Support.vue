@@ -6,7 +6,7 @@
             Every donation helps to improve me. The funds will be used to purchase better equipment, software, books, and other resources that help out with making new projects. They also help out with server costs and the hiring of new developers for the projects.
             <div>
                 Please Donate To Bitcoin Address:
-                <pre><code>3Lrd7BRcGVphhhEnoe7XmcthvqEHzeqsCV</code></pre>
+                <pre><code>3Cwk2FgP5ueKxguk6zKML95q4yTn7aqPVi</code></pre>
             </div>
         </md-card-content>
       </md-card>

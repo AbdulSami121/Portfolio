@@ -20,25 +20,7 @@ const routes  = [
        name: 'index',
        component: Home,
        meta: {
-           title: "Muhammad Umer Farooq",
-           metaTags: [
-                {
-                    name: 'description',
-                    content: 'Muhammad Umer Farooqq portfolio website.'
-                },
-                {
-                    name: 'og:description',
-                    content: 'Muhammad Umer Farooqq portfolio website.'
-                },
-                {
-                    name: 'keywords',
-                    content: 'Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio'
-                },
-                {
-                    name: 'og:keywords',
-                    content: 'Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio'
-                }
-           ]
+           title: "Abdul Sami"
        }
     }, 
     {
@@ -46,25 +28,7 @@ const routes  = [
         name: 'blogs',
         component: Blogs,
         meta: {
-            title: "Blogs",
-            metaTags: [
-                {
-                    name: 'description',
-                    content: 'Here you find blogs written by Muhammad Umer Farooq.'
-                },
-                {
-                    name: 'og:description',
-                    content: 'Here you find blogs written by Muhammad Umer Farooq.'
-                },
-                {
-                    name: 'keywords',
-                    content: 'Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio,blogs,vlogs'
-                },
-                {
-                    name: 'og:keywords',
-                    content: 'Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio,blogs,vlogs'
-                }
-           ]
+            title: "Blogs"
         }
     },
     {
@@ -72,25 +36,7 @@ const routes  = [
         name: 'services',
         component: Services,
         meta: {
-            title: "Services",
-            metaTags: [
-                {
-                    name: 'description',
-                    content: 'Here you find services offered by Muhammad Umer Farooq.'
-                },
-                {
-                    name: 'og:description',
-                    content: 'Here you find services offered by Muhammad Umer Farooq.'
-                },
-                {
-                    name: 'keywords',
-                    content: 'Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio,sevices'
-                },
-                {
-                    name: 'og:keywords',
-                    content: 'Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio,sevices'
-                }
-           ]
+            title: "Services"
         }
     },
     {
@@ -99,24 +45,6 @@ const routes  = [
         component: Projects,
         meta: {
             title: "Projects",
-            metaTags: [
-                {
-                    name: 'description',
-                    content: 'Here you find projects by Muhammad Umer Farooq.'
-                },
-                {
-                    name: 'og:description',
-                    content: 'Here you find projects by Muhammad Umer Farooq.'
-                },
-                {
-                    name: 'keywords',
-                    content: 'Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio,projects'
-                },
-                {
-                    name: 'og:keywords',
-                    content: 'Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio,projects'
-                }
-           ]
         }
     }, 
     {
@@ -125,24 +53,6 @@ const routes  = [
         component: Support,
         meta: {
             title: "Support",
-            metaTags: [
-                {
-                    name: 'description',
-                    content: 'If you want to support Muhammad Umer Farooq, you\'re right place.'
-                },
-                {
-                    name: 'og:description',
-                    content: 'If you want to support Muhammad Umer Farooq, you\'re right place.'
-                },
-                {
-                    name: 'keywords',
-                    content: 'donate,support,Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio'
-                },
-                {
-                    name: 'og:keywords',
-                    content: 'donate,support,Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio'
-                }
-           ]
         }
     }, 
     {
@@ -159,24 +69,6 @@ const routes  = [
         component: Contact,
         meta: {
             title: "Contact",
-            metaTags: [
-                {
-                    name: 'description',
-                    content: 'You can contact to Umer from here, just fill the form.'
-                },
-                {
-                    name: 'og:description',
-                    content: 'You can contact to Umer from here, just fill the form.'
-                },
-                {
-                    name: 'keywords',
-                    content: 'contact,Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio'
-                },
-                {
-                    name: 'og:keywords',
-                    content: 'contact,Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio'
-                }
-           ]
         }
     }, 
     {
@@ -185,24 +77,6 @@ const routes  = [
         component: Skills,
         meta: {
             title: "Skills",
-            metaTags: [
-                {
-                    name: 'description',
-                    content: 'Umer have many skills sets which can be found in this page.'
-                },
-                {
-                    name: 'og:description',
-                    content: 'Umer have many skills sets which can be found in this page.'
-                },
-                {
-                    name: 'keywords',
-                    content: 'skills,Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio'
-                },
-                {
-                    name: 'og:keywords',
-                    content: 'skills,Muhammad,Umer,Farooq,Lablnet,lablnet,Malik,portfolio'
-                }
-           ]
         }
     },
     {
@@ -250,7 +124,7 @@ const routes  = [
         name: 'profile',
         component: Home,
         meta: {
-            title: "Muhammad Umer Farooq"
+            title: "Abdul Sami"
         }
     },
     {

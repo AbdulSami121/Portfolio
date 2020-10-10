@@ -97,7 +97,7 @@
       },
       sent () {
         this.sending = true
-        axios.post("https://formspree.io/meqpjjbz", {
+        axios.post("https://formspree.io/f/mqkgeoal", {
             name: this.form.name,
             _replyto: this.form.email,
             message: this.form.comment

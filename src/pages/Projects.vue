@@ -60,6 +60,8 @@
                 axios.get(`${url}data/projects.json?timestamp=${new Date().getTime()}`).then(response => {
                     this.data =  response.data
                     this.load = true
+                    if (this.data.null) this.load = false
+                    
                 }).catch(err => {
                     this.error = true
                 })

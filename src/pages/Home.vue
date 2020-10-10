@@ -18,6 +18,7 @@
                     <md-button class="md-raised md-primary twitter"><a :href="twitter">Twitter</a></md-button>
                     <md-button class="md-raised md-primary linkedin"><a :href="linkedin">Linkedin</a></md-button>
                     <md-button class="md-raised md-primary facebook"><a :href="facebook">Facebook</a></md-button>
+                    <md-button class="md-raised md-primary instagram"><a :href="instagram">Instagram</a></md-button>
                 </md-card-content>
             </md-card>
             <md-card class="profile-cards ">
@@ -90,7 +91,7 @@
                 </md-card-header>
                 <md-card-content v-for="(quote, index) in quotes" :key="index">
                     <blockquote>
-                        <p>{{quote['text']}} <md-divider/> - {{quote['author']}}</p>
+                        <p>{{quote['text']}} <span v-if="quote['author'] != 'null'" ><md-divider/> - {{quote['author']}}</span></p>
                     </blockquote>
                 </md-card-content>
             </md-card>
@@ -127,6 +128,7 @@
                 twitter: "",
                 linkedin: "",
                 facebook: "",
+                instagram: "",
                 quotes: [],
                 load: false,
                 error: false,
@@ -153,6 +155,7 @@
                     this.twitter = data.twitter
                     this.linkedin = data.linkedin
                     this.facebook = data.facebook
+                    this.instagram = data.instagram
                     this.quotes = data.quotes
                     this.load = true
                 }).catch(err => {

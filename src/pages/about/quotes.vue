@@ -3,7 +3,7 @@
     <div v-if="!error">
       <md-progress-bar v-if="!load" class="md-accent" md-mode="indeterminate"></md-progress-bar>
     </div>
-    <h3 class="title">Umer's Quotes</h3>
+    <h3 class="title">Sami's Qoute</h3>
     <div v-if="load">
       <md-card v-for="(interest, index) in data" :key="index">
         <md-card-content>

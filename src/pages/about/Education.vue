@@ -25,10 +25,6 @@
                             <md-table-cell><strong>Program</strong></md-table-cell>
                             <md-table-cell>{{item["program"]}}</md-table-cell>
                         </md-table-row>
-                        <md-table-row>
-                            <md-table-cell><strong>CGPA / Mark</strong></md-table-cell>
-                            <md-table-cell>{{item["cgpa"]}}</md-table-cell>
-                        </md-table-row>
                     </md-table>
                 </md-card>
             </div>
